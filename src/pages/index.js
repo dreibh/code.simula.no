@@ -41,7 +41,6 @@ export default function Home({ code }) {
                         <br />
                         Simula Research Laboratory and SimulaMet.
                     </h2>
-                    <SearchAndFilter />
                 </div>
                 <CodeGrid code={code} />
             </div>
