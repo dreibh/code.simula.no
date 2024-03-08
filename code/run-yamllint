@@ -1,0 +1,2 @@
+#!/bin/sh
+find -name "*.md" | xargs yamllint -s -d '{rules: {document-start: disable}}'
